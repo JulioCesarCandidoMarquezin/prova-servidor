@@ -1,7 +1,7 @@
 <?php
 
 $host = "mysql";
-$banco = "prova";
+$banco = "filmes";
 $porta = 3306;
 $usuario = "root";
 $senha = "root";
