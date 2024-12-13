@@ -5,7 +5,7 @@ echo "
         <td>{$ator['nome']}</td>
         <td>{$ator['idade']}</td>
         <td>{$ator['salario']}</td>
-        <td>{$ator['sexo']}</td>
+        <td>" . (($ator['sexo'] === 'M') ? 'Masculino' : 'Feminino') . "</td>
         <td>{$ator['cidade']}</td>
         <td>
             <button class='btn btn-warning btn-sm' onclick='editar_ator({$ator['codigo']}, \"{$ator['nome']}\", {$ator['idade']}, {$ator['salario']}, \"{$ator['sexo']}\", \"{$ator['cidade']}\")'>
