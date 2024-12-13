@@ -1,6 +1,6 @@
-<div class="table-responsive">
-    <table class="table">
-        <thead>
+<div class="table-responsive mt-4">
+    <table class="table table-striped table-hover">
+        <thead class="table-dark">
             <tr>
                 <th>Código</th>
                 <th>Nome</th>
@@ -8,6 +8,7 @@
                 <th>Salário</th>
                 <th>Sexo</th>
                 <th>Cidade</th>
+                <th>Ações</th>
             </tr>
         </thead>
         <tbody>

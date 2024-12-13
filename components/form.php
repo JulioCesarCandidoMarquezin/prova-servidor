@@ -1,5 +1,5 @@
-<form action="servidor.php" method="POST" onsubmit="return validar_formulario()">
-    <h2>Adicionar/Editar Ator</h2>
+<form action="servidor.php" method="POST" onsubmit="return validar_formulario()" class="p-4 bg-light rounded shadow">
+    <h2 class="mb-4">Adicionar/Editar Ator</h2>
 
     <input type="hidden" name="codigo" id="codigo" value="">
     <input type="hidden" name="acao" id="acao" value="criar">
