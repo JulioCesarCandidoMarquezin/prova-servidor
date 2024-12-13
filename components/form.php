@@ -1,4 +1,4 @@
-<form action="servidor.php" method="POST" onsubmit="return validar_formulario()" class="p-4 bg-light rounded shadow">
+<form action="/servidor.php" method="POST" onsubmit="return validar_formulario()" class="p-4 bg-light rounded shadow">
     <h2 class="mb-4">Adicionar/Editar Ator</h2>
 
     <input type="hidden" name="codigo" id="codigo" value="">
@@ -27,4 +27,5 @@
         <input type="text" class="form-control" name="cidade" id="cidade" required>
     </div>
     <button type="submit" class="btn btn-primary">Salvar</button>
+    <button type="button" class="btn btn-warning" onclick="limpar_campos()">Limpar tudo</button>
 </form>

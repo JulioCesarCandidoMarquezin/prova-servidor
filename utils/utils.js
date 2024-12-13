@@ -5,6 +5,7 @@ function limpar_campos() {
     document.getElementById('salario').value = '';
     document.getElementById('sexo').value = 'M';
     document.getElementById('cidade').value = '';
+    document.getElementById('acao').value = 'criar';
 }
 
 function editar_ator(codigo, nome, idade, salario, sexo, cidade) {
